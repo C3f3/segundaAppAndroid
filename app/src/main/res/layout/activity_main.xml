@@ -13,6 +13,49 @@
         android:src="@drawable/android"
         android:layout_gravity="center_horizontal"
         android:id="@+id/principal"/>
+    <HorizontalScrollView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/android"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/android"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/apple"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/apple"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/linux"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/linux"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/firefox"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/firefox"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poner de Fondo"
+        android:id="@+id/boton"/>
 </LinearLayout>
